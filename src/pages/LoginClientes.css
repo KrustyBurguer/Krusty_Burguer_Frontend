@@ -1,0 +1,55 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px; 
+  height: auto; 
+}
+
+.formita {
+  margin-top: 10rem;
+  margin-left: -2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: rgba(170, 0, 255, 0.8); /* Fondo semi-transparente */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #faf61d;
+  color: #e0dbe3;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 1.3s;
+}
+
+button:hover {
+  background-color: #0cb4bd;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #ff0000; /* Color rojo para mensajes */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para mensajes */
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold; /* Letras más gruesas */
+}
